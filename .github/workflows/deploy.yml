@@ -34,11 +34,7 @@ jobs:
         run: npm install -g wrangler@3.80.0
 
       - name: Deploy to Cloudflare Pages
-        run: |
-          # Create project if it doesn't exist
-          npx wrangler pages project create muna-bhattarai-portfolio --production-branch main || echo "Project already exists"
-          # Deploy the out directory directly
-          npx wrangler pages deploy out --project-name=muna-bhattarai-portfolio
+        run: npx wrangler pages deploy out --project-name=muna-bhattarai-portfolio
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -72,11 +68,7 @@ jobs:
         run: npm install -g wrangler@3.80.0
 
       - name: Deploy Preview to Cloudflare Pages
-        run: |
-          # Create project if it doesn't exist
-          npx wrangler pages project create muna-bhattarai-portfolio --production-branch main || echo "Project already exists"
-          # Deploy the out directory directly
-          npx wrangler pages deploy out --project-name=muna-bhattarai-portfolio
+        run: npx wrangler pages deploy out --project-name=muna-bhattarai-portfolio
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
