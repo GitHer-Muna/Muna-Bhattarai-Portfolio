@@ -28,6 +28,7 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
+          CI: true
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
@@ -35,14 +36,6 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy out --project-name=muna-bhattarai-portfolio --compatibility-date=2024-01-01
-
-      - name: Configure Custom Domain (Production only)
-        if: github.ref == 'refs/heads/main'
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages project create muna-bhattarai-portfolio --compatibility-date=2024-01-01 || echo "Project already exists"
 
   # Deploy preview for pull requests
   deploy-preview:
@@ -67,6 +60,7 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
+          CI: true
 
       - name: Deploy Preview to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
