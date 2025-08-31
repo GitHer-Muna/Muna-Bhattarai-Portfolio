@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="340" height="340" viewBox="0 0 340 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="340" height="340" rx="20" fill="#64748B"/>
+  <circle cx="170" cy="150" r="40" fill="#FFFFFF" opacity="0.1"/>
+  <text x="170" y="220" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    Certification
+  </text>
+  <text x="170" y="245" font-family="Arial, sans-serif" font-size="14" fill="#E2E8F0" text-anchor="middle">
+    Badge
+  </text>
+</svg>

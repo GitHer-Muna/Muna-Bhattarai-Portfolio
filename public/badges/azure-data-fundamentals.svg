@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="340" height="340" viewBox="0 0 340 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="340" height="340" rx="20" fill="#0078D4"/>
+  <circle cx="170" cy="120" r="35" fill="#FFFFFF" opacity="0.2"/>
+  <rect x="150" y="105" width="40" height="30" rx="3" fill="#FFFFFF" opacity="0.3"/>
+  <rect x="155" y="110" width="8" height="20" fill="#FFFFFF" opacity="0.6"/>
+  <rect x="167" y="115" width="8" height="15" fill="#FFFFFF" opacity="0.6"/>
+  <rect x="179" y="112" width="8" height="18" fill="#FFFFFF" opacity="0.6"/>
+  <text x="170" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    Azure Data
+  </text>
+  <text x="170" y="205" font-family="Arial, sans-serif" font-size="14" fill="#E8F4FD" text-anchor="middle">
+    Fundamentals
+  </text>
+  <text x="170" y="250" font-family="Arial, sans-serif" font-size="12" fill="#B3D9FF" text-anchor="middle">
+    2025
+  </text>
+</svg>

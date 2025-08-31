@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="340" height="340" viewBox="0 0 340 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="340" height="340" rx="20" fill="#0078D4"/>
+  <circle cx="170" cy="120" r="35" fill="#FFFFFF" opacity="0.2"/>
+  <path d="M150 105 L190 105 L190 135 L150 135 Z" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="160" cy="115" r="8" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="180" cy="125" r="6" fill="#FFFFFF" opacity="0.6"/>
+  <text x="170" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    Azure AI
+  </text>
+  <text x="170" y="205" font-family="Arial, sans-serif" font-size="14" fill="#E8F4FD" text-anchor="middle">
+    Fundamentals
+  </text>
+  <text x="170" y="250" font-family="Arial, sans-serif" font-size="12" fill="#B3D9FF" text-anchor="middle">
+    2025
+  </text>
+</svg>

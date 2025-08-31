@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="340" height="340" viewBox="0 0 340 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Purple HashiCorp background -->
+  <rect width="340" height="150" rx="20" fill="#7B42BC"/>
+  
+  <!-- Black lower section -->
+  <path d="M 0 130 L 0 300 L 170 340 L 340 300 L 340 130 L 0 130" fill="#000000"/>
+  
+  <!-- HashiCorp logo/text area (simplified) -->
+  <rect x="20" y="20" width="40" height="40" fill="#FFFFFF" opacity="0.9" rx="5"/>
+  <text x="80" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">
+    Terraform
+  </text>
+  
+  <!-- Certified Associate text -->
+  <text x="170" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    CERTIFIED
+  </text>
+  <text x="170" y="225" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    ASSOCIATE
+  </text>
+  
+  <!-- Code/ID -->
+  <text x="170" y="250" font-family="Arial, sans-serif" font-size="12" fill="#999999" text-anchor="middle">
+    HCTA0 003
+  </text>
+  
+  <!-- HashiCorp symbol at bottom -->
+  <circle cx="170" cy="280" r="15" fill="#FFFFFF" opacity="0.3"/>
+  <text x="170" y="285" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    H
+  </text>
+</svg>
