@@ -272,7 +272,7 @@ const Experience = () => {
                   <span className="text-purple-400 text-sm font-medium">KubeCon India • 2025</span>
                 </div>
               </div>
-              <p className="text-slate-300 text-sm leading-relaxed">Awarded a scholarship to attend KubeCon<br />+ CloudNativeCon India 2025, happening at the Hyderabad International Convention Center (HICC) on August<br />6th & 7th.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Scholarship recipient to attend KubeCon + CloudNativeCon India 2025 in Hyderabad</p>
               <div className="mt-4 flex items-center text-xs text-purple-400">
                 <span className="bg-purple-500/20 px-2 py-1 rounded-full">Kubernetes</span>
               </div>
