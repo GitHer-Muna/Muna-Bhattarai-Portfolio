@@ -249,7 +249,7 @@ const Experience = () => {
                   <span className="text-blue-400 text-sm font-medium">Fall 2025 Cohort</span>
                 </div>
               </div>
-              <p className="text-slate-300 text-sm leading-relaxed">Prestigious scholarship for Google Professional Certificates</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Selected into Grow with Google Scholarship Program by Mentor Me Collective providing access to Google Professional Certification via Coursera</p>
               <div className="mt-4 flex items-center text-xs text-blue-400">
                 <span className="bg-blue-500/20 px-2 py-1 rounded-full">Scholarship</span>
               </div>
@@ -291,11 +291,11 @@ const Experience = () => {
               </div>
               <div className="flex items-start justify-between mb-3">
                 <div>
-                  <h5 className="text-white font-semibold text-lg">Google Cloud Launchpad Scholar</h5>
+                  <h5 className="text-white font-semibold text-lg">Google Cloud Career Launchpad Scholar</h5>
                   <span className="text-blue-400 text-sm font-medium">Cloud Engineering • 2025</span>
                 </div>
               </div>
-              <p className="text-slate-300 text-sm leading-relaxed">Elite cloud infrastructure & DevOps program</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Selected as Track Lead for Google Cloud Career Launchpad Program by Mentor Me Collective</p>
               <div className="mt-4 flex items-center text-xs text-blue-400">
                 <span className="bg-blue-500/20 px-2 py-1 rounded-full">Competitive</span>
               </div>
@@ -341,7 +341,7 @@ const Experience = () => {
                   <span className="text-yellow-400 text-sm font-medium">re:Invent Las Vegas • 2024</span>
                 </div>
               </div>
-              <p className="text-slate-300 text-sm leading-relaxed">All expenses paid to world's largest cloud conference</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Awarded a fully funded scholarship by AWS to attend AWS re:Invent 2024 in Las Vegas, Nevada</p>
               <div className="mt-4 flex items-center text-xs text-yellow-400">
                 <span className="bg-yellow-500/20 px-2 py-1 rounded-full">$15K+ Value</span>
               </div>
@@ -433,7 +433,7 @@ const Experience = () => {
                   <span className="text-pink-400 text-sm font-medium">Social Impact • 2022</span>
                 </div>
               </div>
-              <p className="text-slate-300 text-sm leading-relaxed">Global entrepreneurship competition victory</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Won with business idea addressing decent work & economic growth while creating jobs and environmental impact</p>
               <div className="mt-4 flex items-center text-xs text-pink-400">
                 <span className="bg-pink-500/20 px-2 py-1 rounded-full">Impact</span>
               </div>
@@ -456,7 +456,7 @@ const Experience = () => {
                   <span className="text-rose-400 text-sm font-medium">Dhaka, Bangladesh • 2022</span>
                 </div>
               </div>
-              <p className="text-slate-300 text-sm leading-relaxed">Represented LBEF Campus at the Hult Prize Regional Summit, engaging with global changemakers and advancing social entrepreneurship.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Represented LBEF Campus at the Hult Prize Regional Summit</p>
               <div className="mt-4 flex items-center text-xs text-rose-400">
                 <span className="bg-rose-500/20 px-2 py-1 rounded-full">Global Impact</span>
               </div>
@@ -479,7 +479,7 @@ const Experience = () => {
                   <span className="text-green-400 text-sm font-medium">CAN Federation • 2020</span>
                 </div>
               </div>
-              <p className="text-slate-300 text-sm leading-relaxed">Fully funded scholarship for B.Sc.(Hons) IT degree</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Awarded full scholarship to pursue B.Sc.(Hons) IT degree</p>
               <div className="mt-4 flex items-center text-xs text-green-400">
                 <span className="bg-green-500/20 px-2 py-1 rounded-full">Full Funding</span>
               </div>
