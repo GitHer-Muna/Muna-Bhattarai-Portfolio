@@ -1,12 +1,57 @@
 # Muna Bhattarai - Professional Portfolio
 
-![Portfolio Banner](https://img.shields.io/badge/Portfolio-Live-blue?style=for-the-badge)
-![Next.js](https://img.shields.io/badge/Next.js-15.5.2-black?style=for-the-badge&logo=nextdotjs)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-blue?style=for-the-badge&logo=tailwindcss)
-![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-Pages-orange?style=for-the-badge&logo=cloudflare)
+<div align="center">
 
-A modern, responsive portfolio website showcasing expertise in AWS Cloud Engineering, DevOps, GenAI implementations, and Women in Tech advocacy. Built with Next.js 15.5.2 and deployed on Cloudflare Pages.
+![Portfolio Banner](https://img.shields.io/badge/Portfolio-Live-blue?style=for-the-badge&logo=vercel&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-15.5.2-black?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-Pages-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-munabhattarai.com.np-success?style=for-the-badge)](https://munabhattarai.com.np)
+[![GitHub Stars](https://img.shields.io/github/stars/GitHer-Muna/Muna-Bhattarai-Portfolio?style=for-the-badge&logo=github)](https://github.com/GitHer-Muna/Muna-Bhattarai-Portfolio/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/GitHer-Muna/Muna-Bhattarai-Portfolio?style=for-the-badge&logo=github)](https://github.com/GitHer-Muna/Muna-Bhattarai-Portfolio/network/members)
+
+</div>
+
+## 🚀 Overview
+
+A modern, responsive portfolio website showcasing expertise in **AWS Cloud Engineering**, **DevOps**, **GenAI implementations**, and **Women in Tech advocacy**. Built with cutting-edge technologies and deployed with industry best practices.
+
+### ✨ Live Demo
+🔗 **[munabhattarai.com.np](https://munabhattarai.com.np)**
+
+---
+
+## � Table of Contents
+
+- [🚀 Overview](#-overview)
+- [📊 Repository Statistics](#-repository-statistics)
+- [🌟 Portfolio Highlights](#-portfolio-highlights)
+- [🚀 Tech Stack](#-tech-stack)
+- [🏗️ Project Structure](#️-project-structure)
+- [🛠️ Getting Started](#️-getting-started)
+- [🚀 Deployment](#-deployment)
+- [🎨 Customization](#-customization)
+- [👥 About Me](#-about-me)
+- [🔧 Configuration](#-configuration)
+- [🤝 Contributing](#-contributing)
+- [📝 License](#-license)
+- [🏆 Recent Recognition & Achievements](#-recent-recognition--achievements)
+- [🤝 Let's Connect & Collaborate](#-lets-connect--collaborate)
+
+---
+
+## �📊 Repository Statistics
+
+<div align="center">
+
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/GitHer-Muna/Muna-Bhattarai-Portfolio?style=flat-square&logo=github)](https://github.com/GitHer-Muna/Muna-Bhattarai-Portfolio/commits)
+[![GitHub last commit](https://img.shields.io/github/last-commit/GitHer-Muna/Muna-Bhattarai-Portfolio?style=flat-square&logo=github)](https://github.com/GitHer-Muna/Muna-Bhattarai-Portfolio/commits)
+[![GitHub issues](https://img.shields.io/github/issues/GitHer-Muna/Muna-Bhattarai-Portfolio?style=flat-square&logo=github)](https://github.com/GitHer-Muna/Muna-Bhattarai-Portfolio/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/GitHer-Muna/Muna-Bhattarai-Portfolio?style=flat-square&logo=github)](https://github.com/GitHer-Muna/Muna-Bhattarai-Portfolio/pulls)
+
+</div>
 
 ## 🌟 Portfolio Highlights
 
@@ -30,7 +75,7 @@ A modern, responsive portfolio website showcasing expertise in AWS Cloud Enginee
 - **Deployment**: [Cloudflare Pages](https://pages.cloudflare.com/) with GitHub Actions
 - **Domain**: Custom domain munabhattarai.com.np
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 portfolio-website/
@@ -158,14 +203,13 @@ I'm Muna Bhattarai, an AWS Community Builder (AI Category) and passionate Cloud 
 - 🎤 Delivered **25+ technical talks** at conferences and meetups  
 - 🏗️ Organized **20+ tech events** for community growth
 - 🏆 Earned **12+ professional certifications** from AWS, Microsoft, Oracle, and HashiCorp
-- 💼 Built scalable cloud solutions at PMsquare Nepal using AWS serverless architecture
-- 🤖 Specialized in GenAI applications with Amazon Bedrock and RAG systems
 
 ### Current Roles & Achievements
 
 - **🎯 AWS Community Builder** (AI Category) - 2025
+- **🎯 AUG Women in Tech Nepal** (Founding Member) - 2024 - Present
 - **☁️ Google Cloud Learning Path Scholar & Track Lead** - 2025
-- **🚀 Fusemachines AI Fellow** (Selected from 3000+ applicants) - 2025
+- **🚀 Fusemachines AI Fellow** (AI Fellowship) - 2025
 - **⚡ Dan Kohn Scholar** for KubeCon + CloudNativeCon India 2025
 - **🎓 Microsoft Learn Student Ambassador** - 2023-Present
 - **💻 GitHub Campus Expert** - 2023-Present
@@ -188,6 +232,14 @@ Update the following files for your domain:
 - `wrangler.toml` - Cloudflare Pages configuration
 - `src/app/layout.tsx` - Meta tags and canonical URLs
 - `README.md` - Documentation links
+
+## 📈 Performance & Analytics
+
+- **⚡ Lighthouse Score**: 90+ Performance, 100 Accessibility, 100 Best Practices, 100 SEO
+- **🚀 Core Web Vitals**: Excellent ratings for LCP, FID, and CLS
+- **📱 Mobile Responsive**: Fully optimized for all screen sizes
+- **♿ Accessibility**: WCAG 2.1 AA compliant
+- **🔍 SEO Optimized**: Meta tags, structured data, and semantic HTML
 
 ## 🤝 Contributing
 
@@ -217,19 +269,46 @@ This project is open source and available under the [MIT License](LICENSE).
 ### Open for Collaboration
 
 - **🎤 Speaking Engagements**: Tech conferences, workshops, and community events
-- **👥 Mentorship**: Career guidance and technical mentorship for aspiring cloud engineers
-- **💻 Open Source**: Collaboration on cloud and AI/ML projects
-- **☁️ Consulting**: AWS cloud architecture and DevOps implementations
+- **👥 Mentorship**: Career guidance and technical mentorship for aspiring cloud professionals
+- **💻 Open Source**: Collaboration on cloud and GenAI projects
+- **☁️ Consulting**: AWS cloud architecture, DevOps, and GenAI implementations
 
-## 🏆 Recent Recognition & Achievements
-
-- **🎫 AWS All Builders Welcome Grant** - AWS re:Invent 2024 ($15K+ value)
-- **☸️ Dan Kohn Scholar** - KubeCon + CloudNativeCon India 2025  
-- **🚀 Google Cloud Launchpad Scholar** - Elite cloud infrastructure program
-- **🤖 AWS AI/ML Scholar** - Advanced AI/ML Nanodegree with Udacity
-- **🥇 Hult Prize On Campus Winner** - Global entrepreneurship competition
-- **🎓 National ICT Scholarship** - Full scholarship for B.Sc.(Hons) IT degree
+### 📈 Impact Metrics
+- 🎓 **500+ students** mentored in cloud technologies
+- 🎤 **25+ technical talks** at conferences and meetups  
+- 🏗️ **20+ tech events** organized for community growth
+- 🏆 **11+ professional certifications** from AWS, Microsoft, Oracle, HashiCorp, GitHub
 
 ---
 
-**Built with ❤️ by Muna Bhattarai** | Empowering through technology ⚡
+---
+
+<div align="center">
+
+## 🤝 Let's Connect & Collaborate
+
+[![Website](https://img.shields.io/badge/Website-munabhattarai.com.np-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://munabhattarai.com.np)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-munashree-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/munashree/)
+[![GitHub](https://img.shields.io/badge/GitHub-GitHer--Muna-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GitHer-Muna)
+[![Medium](https://img.shields.io/badge/Medium-munashree-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@munashree)
+[![Email](https://img.shields.io/badge/Email-hellomunabhattarai@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hellomunabhattarai@gmail.com)
+
+### 🌟 Open for Opportunities
+
+**🎤 Speaking Engagements** • **👥 Mentorship** • **💻 Open Source** • **☁️ Consulting**
+
+📍 **Based in Kathmandu, Nepal** 🇳🇵
+
+</div>
+
+---
+
+<div align="center">
+
+**Built with ❤️ by Muna Bhattarai** | *Empowering through technology* ⚡
+
+⭐ **Star this repository if you find it helpful!** ⭐
+
+</div>
+
+````
