@@ -2,14 +2,14 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Muna Bhattarai - Cloud Engineer & AI Specialist',
+  title: 'Muna Bhattarai - Cloud Engineer & Women in Tech Advocate',
   description: 'Cloud Engineer specializing in AWS, DevOps, and AI/ML implementations. AWS Community Builder based in Kathmandu, Nepal.',
-  keywords: ['Muna Bhattarai', 'Cloud Engineering', 'AWS', 'DevOps', 'AI/ML', 'Python', 'Terraform', 'Nepal'],
+  keywords: ['Muna Bhattarai', 'Cloud Engineering', 'AWS', 'DevOps', 'GenAI', 'Python', 'Terraform', 'Nepal'],
   authors: [{ name: 'Muna Bhattarai' }],
   creator: 'Muna Bhattarai',
   openGraph: {
-    title: 'Muna Bhattarai - Cloud Engineer & AI Specialist',
-    description: 'Cloud Engineer specializing in AWS, DevOps, and AI/ML implementations.',
+    title: 'Muna Bhattarai - Cloud Engineer & Women in Tech Advocate',
+    description: 'Cloud Engineer specializing in AWS, DevOps, and GenAI implementations.',
     url: 'https://munabhattarai.com.np',
     siteName: 'Muna Bhattarai Portfolio',
     locale: 'en_US',
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Muna Bhattarai - Cloud Engineer & AI Specialist',
-    description: 'Cloud Engineer specializing in AWS, DevOps, and AI/ML implementations.',
+    title: 'Muna Bhattarai - Cloud Engineer & Women in Tech Advocate',
+    description: 'Cloud Engineer specializing in AWS, DevOps, and Gen implementations.',
   },
   robots: {
     index: true,

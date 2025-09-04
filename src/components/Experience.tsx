@@ -216,7 +216,7 @@ const Experience = () => {
           ))}
         </div>
 
-        {/* Major Achievements & Awards - Modern Visual Design */}
+        {/* Major Achievements & Awards */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -225,61 +225,37 @@ const Experience = () => {
           className="mt-16 mb-16"
         >
           <h3 className="text-3xl font-heading font-bold text-white text-center mb-4">
-            Major <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">Achievements & Awards</span>
+            <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">Major Achievements & Awards</span>
           </h3>
           <p className="text-slate-400 text-center mb-12 max-w-2xl mx-auto">
             Recognized globally for excellence in cloud computing, AI innovation, and community leadership
           </p>
           
-          {/* Featured Achievements */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {/* AWS Community Builder - Highlighted */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-              className="bg-gradient-to-br from-orange-500/10 to-yellow-500/10 backdrop-blur-sm p-6 rounded-xl border border-orange-500/30 hover:border-orange-400/50 transition-all duration-300 relative overflow-hidden group"
-            >
-              <div className="absolute top-2 right-2 w-8 h-8 bg-orange-500/20 rounded-full flex items-center justify-center">
-                <span className="text-orange-400 text-lg">🏆</span>
-              </div>
-              <div className="flex items-start justify-between mb-3">
-                <div>
-                  <h5 className="text-white font-semibold text-lg">AWS Community Builder</h5>
-                  <span className="text-orange-400 text-sm font-medium">AI-Engineering • 2025</span>
-                </div>
-              </div>
-              <p className="text-slate-300 text-sm leading-relaxed">Global recognition for AWS expertise & community contributions</p>
-              <div className="mt-4 flex items-center text-xs text-orange-400">
-                <span className="bg-orange-500/20 px-2 py-1 rounded-full">Active</span>
-              </div>
-            </motion.div>
-
-            {/* AWS re:Invent Scholar */}
+            {/* Mentor Me Collective x Grow with Google Scholarship Program - Fall 2025 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-br from-yellow-500/10 to-amber-500/10 backdrop-blur-sm p-6 rounded-xl border border-yellow-500/30 hover:border-yellow-400/50 transition-all duration-300 relative overflow-hidden"
+              className="bg-gradient-to-br from-blue-500/10 to-green-500/10 backdrop-blur-sm p-6 rounded-xl border border-blue-500/30 hover:border-blue-400/50 transition-all duration-300 relative overflow-hidden"
             >
-              <div className="absolute top-2 right-2 w-8 h-8 bg-yellow-500/20 rounded-full flex items-center justify-center">
-                <span className="text-yellow-400 text-lg">🎫</span>
+              <div className="absolute top-2 right-2 w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center">
+                <span className="text-blue-400 text-lg">📚</span>
               </div>
               <div className="flex items-start justify-between mb-3">
                 <div>
-                  <h5 className="text-white font-semibold text-lg">AWS All Builders Welcome Grant</h5>
-                  <span className="text-yellow-400 text-sm font-medium">re:Invent Las Vegas • 2024</span>
+                  <h5 className="text-white font-semibold text-lg">Mentor Me Collective x Grow with Google Scholarship Program</h5>
+                  <span className="text-blue-400 text-sm font-medium">Fall 2025 Cohort</span>
                 </div>
               </div>
-              <p className="text-slate-300 text-sm leading-relaxed">All expenses paid to world's largest cloud conference</p>
-              <div className="mt-4 flex items-center text-xs text-yellow-400">
-                <span className="bg-yellow-500/20 px-2 py-1 rounded-full">$15K+ Value</span>
+              <p className="text-slate-300 text-sm leading-relaxed">Prestigious scholarship for Google Professional Certificates</p>
+              <div className="mt-4 flex items-center text-xs text-blue-400">
+                <span className="bg-blue-500/20 px-2 py-1 rounded-full">Scholarship</span>
               </div>
             </motion.div>
 
-            {/* KubeCon Scholar */}
+            {/* Dan Kohn Scholar - 2025 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -296,13 +272,13 @@ const Experience = () => {
                   <span className="text-purple-400 text-sm font-medium">KubeCon India • 2025</span>
                 </div>
               </div>
-              <p className="text-slate-300 text-sm leading-relaxed">Cloud-native computing excellence recognition</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Awarded a scholarship to attend KubeCon<br />+ CloudNativeCon India 2025, happening at the Hyderabad International Convention Center (HICC) on August<br />6th & 7th.</p>
               <div className="mt-4 flex items-center text-xs text-purple-400">
                 <span className="bg-purple-500/20 px-2 py-1 rounded-full">Kubernetes</span>
               </div>
             </motion.div>
 
-            {/* Google Cloud Scholar */}
+            {/* Google Cloud Launchpad Scholar - 2025 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -325,11 +301,57 @@ const Experience = () => {
               </div>
             </motion.div>
 
-            {/* AI/ML Scholar */}
+            {/* AWS Community Builder - 2025 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.4 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-br from-orange-500/10 to-yellow-500/10 backdrop-blur-sm p-6 rounded-xl border border-orange-500/30 hover:border-orange-400/50 transition-all duration-300 relative overflow-hidden"
+            >
+              <div className="absolute top-2 right-2 w-8 h-8 bg-orange-500/20 rounded-full flex items-center justify-center">
+                <span className="text-orange-400 text-lg">🏆</span>
+              </div>
+              <div className="flex items-start justify-between mb-3">
+                <div>
+                  <h5 className="text-white font-semibold text-lg">AWS Community Builder</h5>
+                  <span className="text-orange-400 text-sm font-medium">AI-Engineering • 2025</span>
+                </div>
+              </div>
+              <p className="text-slate-300 text-sm leading-relaxed">Global recognition for AWS expertise & community contributions</p>
+              <div className="mt-4 flex items-center text-xs text-orange-400">
+                <span className="bg-orange-500/20 px-2 py-1 rounded-full">Cloud Computing</span>
+              </div>
+            </motion.div>
+
+            {/* AWS All Builders Welcome Grant - 2024 */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-br from-yellow-500/10 to-amber-500/10 backdrop-blur-sm p-6 rounded-xl border border-yellow-500/30 hover:border-yellow-400/50 transition-all duration-300 relative overflow-hidden"
+            >
+              <div className="absolute top-2 right-2 w-8 h-8 bg-yellow-500/20 rounded-full flex items-center justify-center">
+                <span className="text-yellow-400 text-lg">🎫</span>
+              </div>
+              <div className="flex items-start justify-between mb-3">
+                <div>
+                  <h5 className="text-white font-semibold text-lg">AWS All Builders Welcome Grant</h5>
+                  <span className="text-yellow-400 text-sm font-medium">re:Invent Las Vegas • 2024</span>
+                </div>
+              </div>
+              <p className="text-slate-300 text-sm leading-relaxed">All expenses paid to world's largest cloud conference</p>
+              <div className="mt-4 flex items-center text-xs text-yellow-400">
+                <span className="bg-yellow-500/20 px-2 py-1 rounded-full">$15K+ Value</span>
+              </div>
+            </motion.div>
+
+            {/* AWS AI/ML Scholar - 2024 */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
               viewport={{ once: true }}
               className="bg-gradient-to-br from-emerald-500/10 to-teal-500/10 backdrop-blur-sm p-6 rounded-xl border border-emerald-500/30 hover:border-emerald-400/50 transition-all duration-300 relative overflow-hidden"
             >
@@ -348,11 +370,11 @@ const Experience = () => {
               </div>
             </motion.div>
 
-            {/* Microsoft Student Ambassador */}
+            {/* Microsoft Learn Student Ambassador - 2023 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
+              transition={{ duration: 0.5, delay: 0.7 }}
               viewport={{ once: true }}
               className="bg-gradient-to-br from-cyan-500/10 to-blue-500/10 backdrop-blur-sm p-6 rounded-xl border border-cyan-500/30 hover:border-cyan-400/50 transition-all duration-300 relative overflow-hidden"
             >
@@ -371,16 +393,16 @@ const Experience = () => {
               </div>
             </motion.div>
 
-            {/* GitHub Campus Expert */}
+            {/* GitHub Campus Expert - 2023 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: 0.6 }}
+              transition={{ duration: 0.5, delay: 0.8 }}
               viewport={{ once: true }}
               className="bg-gradient-to-br from-slate-500/10 to-gray-500/10 backdrop-blur-sm p-6 rounded-xl border border-slate-500/30 hover:border-slate-400/50 transition-all duration-300 relative overflow-hidden"
             >
               <div className="absolute top-2 right-2 w-8 h-8 bg-slate-500/20 rounded-full flex items-center justify-center">
-                <span className="text-slate-400 text-lg">💻</span>
+                <span className="text-slate-400 text-lg">🚩</span>
               </div>
               <div className="flex items-start justify-between mb-3">
                 <div>
@@ -390,15 +412,15 @@ const Experience = () => {
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">Organizing tech events & fostering inclusive communities</p>
               <div className="mt-4 flex items-center text-xs text-slate-400">
-                <span className="bg-slate-500/20 px-2 py-1 rounded-full">Open Source</span>
+                <span className="bg-slate-500/20 px-2 py-1 rounded-full">GitHub Education</span>
               </div>
             </motion.div>
 
-            {/* Hult Prize Winner */}
+            {/* Hult Prize On Campus Winner - 2022 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: 0.7 }}
+              transition={{ duration: 0.5, delay: 0.9 }}
               viewport={{ once: true }}
               className="bg-gradient-to-br from-pink-500/10 to-rose-500/10 backdrop-blur-sm p-6 rounded-xl border border-pink-500/30 hover:border-pink-400/50 transition-all duration-300 relative overflow-hidden"
             >
@@ -417,11 +439,34 @@ const Experience = () => {
               </div>
             </motion.div>
 
-            {/* National ICT Scholarship */}
+            {/* Hult Prize Regional Summit Representative - 2022 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: 0.8 }}
+              transition={{ duration: 0.5, delay: 1.0 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-br from-rose-500/10 to-pink-500/10 backdrop-blur-sm p-6 rounded-xl border border-rose-500/30 hover:border-rose-400/50 transition-all duration-300 relative overflow-hidden"
+            >
+              <div className="absolute top-2 right-2 w-8 h-8 bg-rose-500/20 rounded-full flex items-center justify-center">
+                <span className="text-rose-400 text-lg">🌍</span>
+              </div>
+              <div className="flex items-start justify-between mb-3">
+                <div>
+                  <h5 className="text-white font-semibold text-lg">Hult Prize Regional Summit Representative</h5>
+                  <span className="text-rose-400 text-sm font-medium">Dhaka, Bangladesh • 2022</span>
+                </div>
+              </div>
+              <p className="text-slate-300 text-sm leading-relaxed">Represented LBEF Campus at the Hult Prize Regional Summit, engaging with global changemakers and advancing social entrepreneurship.</p>
+              <div className="mt-4 flex items-center text-xs text-rose-400">
+                <span className="bg-rose-500/20 px-2 py-1 rounded-full">Global Impact</span>
+              </div>
+            </motion.div>
+
+            {/* National ICT Scholarship - 2020 */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 1.1 }}
               viewport={{ once: true }}
               className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 backdrop-blur-sm p-6 rounded-xl border border-green-500/30 hover:border-green-400/50 transition-all duration-300 relative overflow-hidden"
             >
@@ -445,7 +490,7 @@ const Experience = () => {
           <div className="text-center mt-12">
             <div className="inline-flex items-center space-x-2 px-6 py-3 bg-slate-800/50 text-slate-300 rounded-lg border border-slate-600/50">
               <span className="text-yellow-400">🏆</span>
-              <span>9 Major achievements spanning cloud computing, AI/ML, and community leadership</span>
+              <span>11 Major achievements spanning cloud computing, AI/ML, and community leadership</span>
             </div>
           </div>
         </motion.div>

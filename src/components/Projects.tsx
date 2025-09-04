@@ -27,7 +27,7 @@ const Projects = () => {
         'Access Level': 'Enterprise'
       },
       status: 'Production',
-      year: '2023',
+      year: '2025',
       live: 'https://addtocloud.tech/'
     },
 
@@ -53,7 +53,7 @@ const Projects = () => {
         'Processing Time': '<3s'
       },
       status: 'Completed',
-      year: '2024',
+      year: '2023',
       github: 'https://github.com/munabhattarai/plant-disease-detection'
     },
     {
@@ -84,7 +84,7 @@ const Projects = () => {
       title: 'E-Library Management System',
       description: 'Comprehensive database design and implementation for digital library management using MS SQL Server.',
       longDescription: 'Complete database solution for library management including book cataloging, member management, lending system, fine calculations, and reporting. Features advanced SQL queries and stored procedures.',
-      technologies: ['MS SQL Server', 'T-SQL', 'Stored Procedures', 'Database Design', 'ERD'],
+      technologies: ['MS SQL Server', 'Stored Procedures', 'Database Design', 'ERD'],
       category: 'Database Systems',
       type: 'Academic',
       icon: BookOpen,
@@ -125,14 +125,14 @@ const Projects = () => {
         'Security Compliance': '100%'
       },
       status: 'Completed',
-      year: '2023',
+      year: '2022',
       github: 'https://github.com/munabhattarai/social-research-infra'
     },
     {
       title: 'COVID-19 Patient Management System',
       description: 'Python-based system for managing COVID-19 patient data, tracking, and reporting during the pandemic.',
       longDescription: 'Comprehensive patient management system developed during COVID-19 to help healthcare facilities track patient information, symptoms, treatment progress, and generate reports for health authorities.',
-      technologies: ['Python', 'SQLite', 'Pandas', 'NumPy', 'Matplotlib', 'Tkinter'],
+      technologies: ['Core Python', 'File Handling', 'Data Structures', 'OOP'],
       category: 'Healthcare Software',
       type: 'Academic',
       icon: Heart,
@@ -144,9 +144,7 @@ const Projects = () => {
         'Automated health reports'
       ],
       metrics: {
-        'Patient Records': '500+',
-        'Reporting Speed': '5x faster',
-        'Data Accuracy': '99.8%'
+        'Patient Records': '500+'
       },
       status: 'Completed',
       year: '2021',
