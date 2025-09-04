@@ -207,8 +207,11 @@ I'm Muna Bhattarai, an AWS Community Builder (AI Category) and passionate Cloud 
 ### Current Roles & Achievements
 
 - **🎯 AWS Community Builder** (AI Category) - 2025
-- **🎯 AUG Women in Tech Nepal** (Founding Member) - 2024 - Present
+- **🎫 AWS All Builders Welcome Grant Recipient** - 2024
+- **🤖 AWS AI/ML Scholar** - 2024
+- **👥 AUG Women in Tech Nepal** (Founding Member) - 2024 - Present
 - **☁️ Google Cloud Learning Path Scholar & Track Lead** - 2025
+- **📚 Grow with Google Scholar** - 2025
 - **🚀 Fusemachines AI Fellow** (AI Fellowship) - 2025
 - **⚡ Dan Kohn Scholar** for KubeCon + CloudNativeCon India 2025
 - **🎓 Microsoft Learn Student Ambassador** - 2023-Present
